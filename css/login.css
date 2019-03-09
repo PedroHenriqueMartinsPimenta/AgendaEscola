@@ -1,0 +1,246 @@
+
+@charset "utf-8";
+/* Simple fluid media
+   Note: Fluid media requires that you remove the media's height and width attributes from the HTML
+   http://www.alistapart.com/articles/fluid-images/ 
+*/
+img, object, embed, video {
+	max-width: 100%;
+}
+/* IE 6 does not support max-width so default to width 100% */
+.ie6 img {
+	width:100%;
+}
+
+/*
+	Dreamweaver Fluid Grid Properties
+	----------------------------------
+	dw-num-cols-mobile:		5;
+	dw-num-cols-tablet:		8;
+	dw-num-cols-desktop:	10;
+	dw-gutter-percentage:	25;
+	
+	Inspiration from "Responsive Web Design" by Ethan Marcotte 
+	http://www.alistapart.com/articles/responsive-web-design
+	
+	and Golden Grid System by Joni Korpi
+	http://goldengridsystem.com/
+*/
+
+/* Mobile Layout: 480px and below. */
+*{
+	margin: 0;
+	padding: 0;
+}
+header{
+	position: relative;
+	width: 100%;
+	height: 150px;
+	background-color: #13722e; 	
+}
+
+.corpo{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	margin: 0 auto;
+	box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+	background-image:url(../img/tela%20de%20login.jpg);
+	background-repeat:no-repeat;
+	background-position:center center;
+	background-size:cover;
+}
+
+form input{
+	position: relative;
+	background-color:#67AB65;
+	border:0px;
+	width: 200PX;
+	height: 30px;
+}
+ form{
+	 position:relative;
+	 top:10%;
+	 }
+form label{
+	position: relative;
+	margin-top: 20px;
+	font-size:17px
+}
+table{
+	height: 90px;
+	position: relative;
+	width:50%;
+	left:0px;
+	margin:0 auto;
+	top: 140px;
+	}
+.texto{
+	position: absolute;
+	width:100%;
+	text-align:center;	
+	top: 80px;
+}
+.entrar{
+	position: absolute;
+	top: 245px;
+	left:25%;
+	background-color: #d0e2cc;
+	width: 50%;
+	margin:0 auto;
+	}
+.icon{
+	width:150px;
+	height:150px;
+	position:relative;
+	top:-50px;
+	}
+
+
+/* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
+
+@media only screen and (min-width: 481px) {
+*{
+	margin: 0;
+	padding: 0;
+}
+header{
+	position: relative;
+	width: 100%;
+	height: 150px;
+	background-color: #13722e; 	
+}
+
+.corpo{
+	width: 500px;
+	height: 500px;
+	position: relative;
+	margin: 0 auto;
+	margin-top:5%;
+	box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+	background-image:url(../img/tela%20de%20login.jpg);
+	background-repeat:no-repeat;
+	background-position:center center;
+	background-size:cover;
+	border-radius:20px;
+}
+
+form input{
+	position: relative;
+	background-color:#67AB65;
+	border:0px;
+	width: 200PX;
+	height: 30px;
+}
+ form{
+	 position:relative;
+	 top:10%;
+	 }
+form label{
+	position: relative;
+	margin-top: 20px;
+	font-size:17px
+}
+table{
+	height: 90px;
+	position: relative;
+	width:50%;
+	left:0px;
+	margin:0 auto;
+	top: 140px;
+	}
+.texto{
+	position: absolute;
+	width:100%;
+	text-align:center;
+	top: 80px;
+}
+.entrar{
+	position: absolute;
+	top: 245px;
+	left:25%;
+	background-color: #d0e2cc;
+	width: 50%;
+	margin:0 auto;
+	}
+.icon{
+	width:100px;
+	height:100px;
+	position:relative;
+	top:-50px;
+	margin:0 auto;
+	}
+/* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
+}
+@media only screen and (min-width: 769px) {
+*{
+	margin: 0;
+	padding: 0;
+}
+header{
+	position: relative;
+	width: 100%;
+	height: 150px;
+	background-color: #13722e; 	
+}
+
+.corpo{
+	width: 500px;
+	height: 500px;
+	position: relative;
+	margin: 0 auto;
+	margin-top:5%;
+	box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+	background-image:url(../img/tela%20de%20login.jpg);
+	background-repeat:no-repeat;
+	background-position:center center;
+	background-size:cover;
+	border-radius:20px;
+}
+
+form input{
+	position: relative;
+	background-color:#67AB65;
+	border:0px;
+	width: 200PX;
+	height: 30px;
+}
+ form{
+	 position:relative;
+	 top:10%;
+	 }
+form label{
+	position: relative;
+	margin-top: 20px;
+	font-size:17px
+}
+table{
+	height: 90px;
+	position: relative;
+	width:50%;
+	left:0px;
+	margin:0 auto;
+	top: 140px;
+	}
+.texto{
+	position: absolute;
+	width:100%;
+	text-align:center;
+	top: 80px;
+}
+.entrar{
+	position: absolute;
+	top: 245px;
+	left:25%;
+	background-color: #d0e2cc;
+	width: 50%;
+	margin:0 auto;
+	
+	}
+.icon{
+	width:150px;
+	height:150px;
+	position:relative;
+	top:-50px;
+	}
+}

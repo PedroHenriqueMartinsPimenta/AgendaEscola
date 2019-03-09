@@ -1,0 +1,108 @@
+
+#antiga{
+	border: 0px;
+	border-bottom-style: solid;
+	border-bottom-color: #000;
+	border-bottom-width: 4px;
+	width: 230px;
+	position: relative;
+	margin-top: 10px;
+	margin-left:145px;
+	height: 20px;
+}
+#confirmar{
+	border: 0px;
+	border-bottom-style: solid;
+	border-bottom-color: #000;
+	border-bottom-width: 4px;
+	width: 230px;
+	position: relative;
+	margin-top: 10px;
+	margin-left:145px;
+	height: 20px;
+}
+.escuro{
+	background-color: #000;
+	opacity: 0.7;
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	z-index: 100;
+}
+
+.modal{
+	width: 500px;
+	height: 400px;
+	background-color: #fff;
+	position: fixed;
+	top: 100px;
+	left: 450px;
+	display: none;
+	z-index: 101;
+}
+.x{
+	position: relative;
+	margin-left: 470px;
+	top: 0px;
+	background-color: #f00;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	cursor: pointer;
+}
+.x:hover{
+	color: #fff;
+}
+table{
+	text-align: center;
+	width: 300px;
+}
+.imagem{
+	width: 150px;
+	height: 150px;
+	position: relative;
+	margin-left: 180px;
+	margin-top: 30px;
+}
+.titulo{
+	color: #2a4423;
+	position: relative;
+	margin-top: 0px;
+	margin-left: 175px;
+}
+
+#nova{
+	border: 0px;
+	border-bottom-style: solid;
+	border-bottom-color: #000;
+	border-bottom-width: 4px;
+	width: 230px;
+	position: relative;
+	margin-top: 10px;
+	margin-left:145px;
+	height: 20px;
+}
+#botao{
+	width: 100px;
+	position: relative;
+	margin-left: 250px;
+	margin-top: 10px;
+	background-color: #4dbc72;
+	border: 0px;
+	height: 20px;
+}
+#abrir{
+	width: 100px;
+	background-color: #4dbc72;
+	border: 0px;
+	height: 20px;
+}
+#abrir:hover{
+	background-color: #5ee58b;
+
+}
+#botao:hover{
+	background-color: #5ee58b;
+
+}

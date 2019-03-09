@@ -1,0 +1,78 @@
+
+
+@charset "utf-8";
+/* Simple fluid media
+   Note: Fluid media requires that you remove the media's height and width attributes from the HTML
+   http://www.alistapart.com/articles/fluid-images/ 
+*/
+
+
+/*
+	Dreamweaver Fluid Grid Properties
+	----------------------------------
+	dw-num-cols-mobile:		5;
+	dw-num-cols-tablet:		8;
+	dw-num-cols-desktop:	10;
+	dw-gutter-percentage:	25;
+	
+	Inspiration from "Responsive Web Design" by Ethan Marcotte 
+	http://www.alistapart.com/articles/responsive-web-design
+	
+	and Golden Grid System by Joni Korpi
+	http://goldengridsystem.com/
+*/
+
+/* Mobile Layout: 480px and below. */
+
+.form{
+	position:relative;
+	top:30px;
+	margin:0 auto;
+	text-align:center;
+	width:90%;	
+	
+	}
+.form input,select{
+	width:78%;
+	height:25px;
+	margin-top:10px;
+	margin-bottom:10px;
+	font-size:15px;
+	}
+
+/* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
+
+@media only screen and (min-width: 481px) {
+.gridContainer {
+	width: 90.675%;
+	padding-left: 1.1625%;
+	padding-right: 1.1625%;
+}
+#LayoutDiv1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+}
+
+/* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
+
+@media only screen and (min-width: 769px) {
+.form{
+	position:relative;
+	top:30px;
+	margin:0 auto;
+	text-align:center;
+	width:600px;	
+	
+	}
+.form input,select{
+	width:50%;
+	height:25px;
+	margin-top:10px;
+	margin-bottom:10px;
+	font-size:15px;
+	}
+}

@@ -1,0 +1,368 @@
+@charset "utf-8";
+/* Simple fluid media
+   Note: Fluid media requires that you remove the media's height and width attributes from the HTML
+   http://www.alistapart.com/articles/fluid-images/ 
+*/
+*{
+	margin:0
+	}
+	body{
+		background-color:#FFF;
+		font-family:Verdana, Geneva, sans-serif
+		}
+.banner{
+	width:100%;
+	height:150px;
+	position:relative;
+	background-color:#0C3
+	}
+	ul{
+		list-style:none
+		}
+nav{
+	width:50px;
+	height:100%;
+	position:fixed;
+	top:0px;
+	right:0px;
+	float:right;
+	background-color:#000;
+	list-style:none;
+	z-index:999
+	}
+	
+	.imgMenu{
+		position:relative;
+		left:-35px;
+		padding:6px;
+		width:30px;
+		height:30px;
+		margin:0 auto;
+		margin-bottom:0px;
+		}
+.imgMenu:hover{
+	width:31px;
+	height:31px;
+	}
+	
+ .navGrande{
+	width:260px;
+	height:100%;
+	position:fixed;
+	top:0px;
+	right:0px;
+	float:right;
+	background-color:#000;
+	list-style:none;
+	z-index:999
+	
+	}
+	
+.legenda{
+	color:#FFF;
+	display:none;
+	position:relative;
+	top:-15px;
+}
+	
+	.loga{
+		position:relative;
+		top: 10%;
+		left:30px;
+		width:330px;
+		height:160px;
+		background-image:url(../img/loga2.png);
+		background-repeat:no-repeat;
+		background-size:60%;
+		}
+.linha{
+	width:100%;
+	height:20px;
+	position:relative;
+	top:5px;
+	background-color:#0C3
+	}
+main{
+	position:relative;
+	top:10px;
+	width:100%;
+	min-height:500px;
+	}
+	.msg{
+		position:relative;
+		margin-left:15px;
+		margin-right: 15px;
+		top:200px;
+		width:300px;
+		height:100px;
+		text-align:center;
+		background-color:#0C3;
+		color:#FFF;
+		border:#000 ridge 3px;
+		box-shadow:#999 10px 5px 4px 1px;
+		border-radius:10px 0px 10px 0px
+		}
+	.msg p{
+		position:relative;
+		top:35%;
+		font-size:24px;
+		font-family:Tahoma, Geneva, sans-serif
+	}
+	a{
+		text-decoration:none
+		}
+.content{
+	position:relative;
+	top:20px;
+	width:100%;
+	}
+.tableList{
+	padding-top:20px;
+	}
+.tableList table{
+	width:70%;
+	text-align:center;
+	border:#0C3 ridge 3px
+	}
+.tableList td{
+	font-size:10px;	
+	border-bottom:1px ridge #0C3;
+	}
+.print{
+	width: 100px;
+	font-size: 18px;
+	text-align:center;
+	color: white;
+	background-color: #0C3;
+	border-radius: 10px;
+	margin: 10px auto;
+}
+.print:hover{
+	background-color: #090
+}
+.opcs{
+	width: 100%;
+}
+.perfil{
+	width:80px;
+	height:80px;
+	background-color:#141414;
+	position:absolute;
+	top:15px;
+	right:66px;
+	border-radius:75px;
+	}
+	#carregar{
+		width:50%;
+		height:50%;
+		position:fixed;
+		left:33%;
+		z-index:999;
+		display:none;
+		}
+	.con{
+		width:100%;
+		height:100%;
+		background-color:#000;
+		opacity:0.6;
+		position:fixed;
+		top:0px;
+		display:none
+		}
+/* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
+
+@media only screen and (min-width: 481px) {
+.gridContainer {
+	width: 90.675%;
+	padding-left: 1.1625%;
+	padding-right: 1.1625%;
+}
+#LayoutDiv1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+}
+
+/* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
+
+@media only screen and (min-width: 769px) {
+*{
+	margin:0
+	}
+	body{
+		background-color:#FFF;
+		font-family:Verdana, Geneva, sans-serif
+		}
+.banner{
+	width:100%;
+	height:200px;
+	position:relative;
+	background-color:#0C3
+	}
+	ul{
+		list-style:none
+		}
+nav{
+	width:50px;
+	height:100%;
+	position:fixed;
+	top:0px;
+	right:0px;
+	float:right;
+	background-color:#000;
+	list-style:none;
+	z-index:999
+	}
+	
+	.imgMenu{
+		position:relative;
+		left:-35px;
+		padding:6px;
+		width:30px;
+		height:30px;
+		margin:0 auto;
+		margin-bottom:0px;
+		}
+.imgMenu:hover{
+	width:31px;
+	height:31px;
+	}
+	
+ .navGrande{
+	width:260px;
+	height:100%;
+	position:fixed;
+	top:0px;
+	right:0px;
+	float:right;
+	background-color:#000;
+	list-style:none;
+	z-index:999
+	
+	}
+	
+.legenda{
+	color:#FFF;
+	display:none;
+	position:relative;
+	top:-15px;
+}
+	
+	.loga{
+		position:relative;
+		top: 10%;
+		left:30px;
+		width:330px;
+		height:160px;
+		background-image:url(../img/loga2.png);
+		background-repeat:no-repeat;
+		background-size:90%;
+		}
+.linha{
+	width:100%;
+	height:20px;
+	position:relative;
+	top:5px;
+	background-color:#0C3
+	}
+main{
+	position:relative;
+	top:10px;
+	width:100%;
+	min-height:500px;
+	}
+	.msg{
+		position:relative;
+		margin:0 auto;
+		top:200px;
+		width:300px;
+		height:100px;
+		text-align:center;
+		background-color:#0C3;
+		color:#FFF;
+		border:#000 ridge 3px;
+		box-shadow:#999 10px 5px 4px 1px;
+		border-radius:10px 0px 10px 0px
+		}
+	.msg p{
+		position:relative;
+		top:35%;
+		font-size:24px;
+		font-family:Tahoma, Geneva, sans-serif
+	}
+	a{
+		text-decoration:none
+		}
+.content{
+	position:relative;
+	top:20px;
+	width:800px;
+	min-height:500px;
+	border-radius:10px;
+	border-left:#666 solid 3px;
+	border-right:#666 solid 3px;
+	margin:0 auto;
+	}
+.tableList{
+	padding-top:20px;
+	width:80%;
+	margin:0 auto;
+	}
+.tableList table{
+	margin:0 auto;
+	width:800px;
+	text-align:center;
+	border:#0C3 ridge 3px
+	}
+.tableList td{
+	font-size: 15px;
+	height:30px;
+	border-bottom:1px ridge #0C3;
+	}
+.print{
+	width: 100px;
+	font-size: 18px;
+	text-align:center;
+	color: white;
+	background-color: #0C3;
+	border-radius: 10px;
+	margin: 10px auto;
+}
+.print:hover{
+	background-color: #090
+}
+.opcs{
+	width: 800px;
+	margin: 0  auto;
+	text-align:center;
+}
+.perfil{
+	width:150px;
+	height:150px;
+	background-color:#141414;
+	position:absolute;
+	top:25px;
+	right:100px;
+	border-radius:75px;
+	}
+	#carregar{
+		width:500px;
+		height:300px;
+		position:fixed;
+		left:33%;
+		z-index:999;
+		display:none;
+		}
+	.con{
+		width:100%;
+		height:100%;
+		background-color:#000;
+		opacity:0.6;
+		position:fixed;
+		top:0px;
+		display:none
+		}
+}

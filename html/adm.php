@@ -40,7 +40,7 @@ if(isset($cpf) && $permissao == 1){
     </ul>
 </nav>
 <main>
-<div class="content">    
+<div class="contentMain">    
     <div class="msg">
         <p>Seja bem vindo!</p>
     </div>

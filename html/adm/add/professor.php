@@ -42,18 +42,19 @@ if(isset($cpf) && $permissao == 1){
 <div class="content">    
     <div class="form">
    		<form action="../../../php/addProfessor.php" method="post" enctype="multipart/form-data">
-        	<p>Adiciona professor</p>
-            <input type="text" id="cpf" name="cpf" maxlength="14" onkeydown="javascript: fMasc( this, mCPF );" placeholder="CPF">
-            <input type="text" id="nome" name="nome" placeholder="Nome">
-            <input type="text" id="sobrenome" name="sobrenome" placeholder="Sobrenome">
-            <input type="email" name="email" placeholder="E-mail">
-            <input type="password" id="senha" name="senha" placeholder="Senha">
-            <select name="permissao" id="permisao">
+        	<p>Adicionar professor</p>
+            <input type="text" id="cpf" name="cpf" maxlength="14" onkeydown="javascript: fMasc( this, mCPF );" placeholder="CPF" class="input">
+            <input type="text" id="nome" name="nome" placeholder="Nome" class="input">
+            <input type="text" id="sobrenome" name="sobrenome" placeholder="Sobrenome" class="input">
+            <input type="email" name="email" placeholder="E-mail" class="input">
+            <input type="password" id="senha" name="senha" placeholder="Senha" class="input">
+            <select name="permissao" id="permisao" class="input">
             	<option value="0">Professor</option>
             	<option value="1">Administrador</option>
             </select>
-            <input type="file" name="foto" accept="image/png, image/jpeg">
-            <input type="submit" value="Cadastrar">
+            <label class="label">Selecionar foto de usuario:</label>
+            <input type="file" name="foto" accept="image/png, image/jpeg" class="file">
+            <input type="submit" value="Cadastrar" class="button" id="botao">
         </form>
 	</div>
 <div>

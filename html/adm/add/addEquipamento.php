@@ -42,10 +42,10 @@ if(isset($cpf) && $permissao == 1){
     <div class="form">
     <form action="../../../php/addEquipamento.php" method="post" enctype="multipart/form-data">
     	<p>Adicionar equipamentos:</p>
-        <input type="text" name="descricao" placeholder="Descrição equipamento">
-        <input type="number" name="qtd" placeholder="Quantidade" min="0">
-        <input type="file" name="img" accept="image/png, image/jpeg">
-        <input type="submit" value="Cadastrar">
+        <input type="text" name="descricao" placeholder="Descrição equipamento" class="input">
+        <input type="number" name="qtd" placeholder="Quantidade" min="0" class="input"><br>
+        <label class="label">Selecionar icone:</label><br><input type="file" name="img" accept="image/png, image/jpeg" class="file">
+        <input type="submit" value="Cadastrar" class="button" id="botao">
     </form>
 </div>
 <div>

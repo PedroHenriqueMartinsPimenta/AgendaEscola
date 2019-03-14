@@ -135,7 +135,7 @@ if(isset($cpf)){
             </div>
             <div class="janelaSala">
            			<div class="formSala">
-                    	<table align="center" style="padding-bottom: 100px">
+                    	<table align="center" style="padding-bottom: 100px;">
                         
                     	<?php 
 						$sqlTurmas = "SELECT * FROM TURMA ORDER BY DESCRICAO ASC";

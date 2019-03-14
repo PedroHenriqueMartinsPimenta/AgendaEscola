@@ -503,7 +503,7 @@ table{
 	width:100%;
 	height:200px;
 	position:relative;
-	background-color:#0C3
+	background-color:#006c01
 	}
 	ul{
 		list-style:none
@@ -515,7 +515,7 @@ nav{
 	top:0px;
 	right:0px;
 	float:right;
-	background-color:#000;
+	background-color:#1A1A1A;
 	list-style:none;
 	z-index:999
 	}
@@ -541,7 +541,7 @@ nav{
 	top:0px;
 	right:0px;
 	float:right;
-	background-color:#000;
+	background-color:#1A1A1A;
 	list-style:none;
 	z-index:999
 	
@@ -560,7 +560,7 @@ nav{
 		left:30px;
 		width:330px;
 		height:160px;
-		background-image:url(../img/loga2.png);
+		background-image:url(../img/loga1.png);
 		background-repeat:no-repeat;
 		background-size:90%;
 		}
@@ -569,13 +569,13 @@ nav{
 	height:20px;
 	position:relative;
 	top:5px;
-	background-color:#0C3
+	background-color:#006c01
 	}
 main{
 	position:relative;
 	top:10px;
 	width:100%;
-	min-height:500px;
+	min-height:100%;
 	}
 .form{
 	position:relative;
@@ -596,7 +596,7 @@ main{
 		display:inline-block;
 		border:1px #FFFFFF double;
 		text-align:center;
-		background-color:#0C3;
+		background-color:#006c01;
 		border-radius:10px 3px 10px 3px
 	}
 .abaHorario p{
@@ -611,7 +611,7 @@ main{
 		display:inline-block;
 		border:1px #FFFFFF double;
 		text-align:center;
-		background-color:#0C3;
+		background-color:#006c01;
 		border-radius:10px 3px 10px 3px
 	}
 .abaEquipamento p{
@@ -626,7 +626,7 @@ main{
 		display:inline-block;
 		border:1px #FFFFFF double;
 		text-align:center;
-		background-color:#0C3;
+		background-color:#006c01;
 		border-radius:10px 3px 10px 3px
 	}
 .abaSala p{
@@ -653,18 +653,14 @@ main{
 		position:relative;
 		top:30px;
 		width:100%;
-		height:500px;
-		margin-bottom:80px;
 		border-radius:10px;
+		display:block;
 	}
 .janelaHome{
 		position:absolute;
 		width:100%;
-		height:100%;
 		border-radius:10px;
-		border-left:3px solid #999999;
-		border-right:3px solid #999999;
-	}
+		}
 .buttonPrincipal{
 			position:relative;
 			top:50%;
@@ -675,19 +671,16 @@ main{
 			font-size:20px;
 			border-radius:10px 0px 10px 0px;
 			text-align:center;
-			background-color:#0C3;
+			background-color:#006c01;
 			box-shadow:5px 3px 5px 3px #666
 		}
 .buttonPrincipal:hover{
-					background-color:#0C6
+					background-color:#0B7D13
 			}
 .janelaHorario{
 			position:absolute;
 			width:100%;
-			height:100%;
 			border-radius:10px;
-			border-left:3px solid #999999;
-			border-right:3px solid #999999;
 			display:none
 		}
 .janelaEquipamento{
@@ -695,27 +688,19 @@ main{
 				width:100%;
 				padding-bottom:80px;
 				border-radius:10px;
-				border-left:3px solid #999999;
-				border-right:3px solid #999999;
 				display:none
 			}
 .janelaSala{
 		position:absolute;
 		width:100%;
-		min-height:100%;
 		border-radius:10px;
-		border-left:3px solid #999999;
-		border-right:3px solid #999999;
 		display:none
 	}
 	.janelaConfimacao{
 		position:absolute;
 		width:100%;
 		border-radius:10px;
-		border-left:3px solid #999999;
-		border-right:3px solid #999999;
 		display:none;
-		min-height:500px;
 		}
 .abaSelecionada{
 	background-color:#930
@@ -729,18 +714,14 @@ main{
 	}
 	.formHorario p{
 		margin-top:10px;
-		text-align:center;
 		font-size:18px
 		}
 	.formSala{
 		position:relative;
 		margin:0 auto;
 		width:300px;
-		top:10%;
-		height:80%;
 	}
 	.formSala p{
-		padding:10px;
 		font-size:18px;
 		}
 		.formEquipamentos{
@@ -768,17 +749,18 @@ main{
 	height:30px;
 	top:90%;
 	left:85%;
-	background-color:#0C0;
+	background-color:#006c01;
 	border-radius:10px;
 	text-align:center;
-	box-shadow:2px 2px 2px 2px #333
+	box-shadow:2px 2px 2px 2px #333;
+	color:#FFF
 }
 																	
 .pass p {
 		padding-top:5px;
 	}
 .pass:hover{
-	background-color:#090
+	background-color:#0B7D13
 	}
 .voltar{
 	position:absolute;
@@ -786,16 +768,17 @@ main{
 	height:30px;
 	top:90%;
 	left:2%;
-	background-color:#0C0;
+	background-color:#006c01;
 	border-radius:10px;
 	text-align:center;
-	box-shadow:2px 2px 2px 2px #333
+	box-shadow:2px 2px 2px 2px #333;
+	color:#FFF;
 }
 .voltar p {
 		padding-top:5px;
 }
 .voltar:hover{
-			background-color:#090
+			background-color:#0B7D13
 		}
 .format{
 	position:relative;
